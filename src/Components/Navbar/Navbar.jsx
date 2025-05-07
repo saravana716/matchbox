@@ -76,7 +76,7 @@ const Navbar = () => {
         <div className={op?'slider1':"slider"}>
           <span><IoIosCloseCircle className='ui' onClick={closediv} /></span>
         <h1>Drop Us a  Message</h1>
-            <div className='form'>
+          <div className='form2'>
                 <div className='form1'>
                     <input type="text" placeholder='Your Name'/>
                     <input type="text" placeholder='Email Address'/>
@@ -98,7 +98,7 @@ const Navbar = () => {
                 </div>
                 <button>SEND COMMENT</button>
 
-            </div>
+          </div>
         </div>
     </div>
    </div>

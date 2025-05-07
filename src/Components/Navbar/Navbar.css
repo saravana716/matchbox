@@ -27,7 +27,10 @@
     box-shadow:  0 4px 12px 0 gainsboro;
     padding: 20px;
     transition: 1s;
+    overflow-y: scroll;
+
 }
+
 .slider h1{
     font-family: "Josefin Sans", sans-serif;
     margin: 10px 0px;
@@ -51,8 +54,14 @@
     color: #ff0000;
     cursor: pointer;
 }
-.slider .form{
+.slider .form2{
     width: 100%;
+    height:100%;
+}
+.slider1 .form2{
+    width: 100%;
+    height: 100%;
+
 }
 .slider1{
     width: 500px;
