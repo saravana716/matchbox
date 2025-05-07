@@ -18,7 +18,7 @@ const Banner = () => {
             <div className='Bannerimg'>
             <img src={banner} alt="" />
             <div className='bannercontent'>
-                <h1><span>42 Years</span> <br />Of Experience</h1>
+                <h1><span>42 Years</span>Of Experience</h1>
                 <h3>in Delivering Single Strike Safety Matches</h3>
                 <button>Read More</button>
             </div>

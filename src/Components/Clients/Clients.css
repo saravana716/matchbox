@@ -42,3 +42,52 @@ font-family: "Josefin Sans", sans-serif;
 .clientbox h4{
     color: white;
 }
+
+@media screen and (max-width:768px) {
+    .clients{
+        width: 100%;
+        height:auto;
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 40px 0px;
+        background: url(../../Assets/matchbox.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    .clients1{
+        width: 100%;
+        height: 100%;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-gap: 25px;
+    }
+    .clientbox{
+        width: 100%;
+        height: 100%;
+        border: 1px dotted var(--secondary-color);
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .clientbox h1{
+        font-size: 35px;
+        background: linear-gradient(45deg, #ff0000, #ff6a00, #ffcc00, #ffff00);
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+        -webkit-text-fill-color: transparent; /* Ensures it works on WebKit browsers */
+    margin-bottom: 10px;
+    font-family: "Josefin Sans", sans-serif;
+    
+    }
+    .clientbox h4{
+        color: white;
+        font-size: 13px;
+    }
+}

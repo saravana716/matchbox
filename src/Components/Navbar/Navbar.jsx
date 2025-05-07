@@ -9,15 +9,19 @@ import { FaInstagramSquare } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
 import { FaFacebookSquare } from "react-icons/fa";
 import { Link } from "react-router-dom";
-
+import { GiHamburgerMenu } from "react-icons/gi";
 import "./Navbar.css"
 const Navbar = () => {
   const [op, setop] = useState(false)
+  const [scroll, setscroll] = useState(false)
   function opendiv(params) {
     setop(true)
   }
   function closediv(params) {
     setop(false)
+  }
+  function movediv(params) {
+    setscroll(!scroll)
   }
   return (
     <>
@@ -44,7 +48,7 @@ const Navbar = () => {
        <div className='navleft'>
             <img src={logo} alt="" />
         </div>
-        <ul>
+        <ul className={scroll?'ul1':"ul"}>
            <Link to="/">
            <li>Home <img src={fire} alt="" />
             
@@ -71,8 +75,11 @@ const Navbar = () => {
            <li>Contact Us <img src={fire} alt="" />
             
             </li></Link>
+            <button onClick={opendiv}>Enquiry</button> 
                  </ul>
-        <button onClick={opendiv}>Enquiry</button>   </div>     
+        <button onClick={opendiv}>Enquiry</button>  
+        <GiHamburgerMenu onClick={movediv} className='menu'/>
+         </div>     
         <div className={op?'slider1':"slider"}>
           <span><IoIosCloseCircle className='ui' onClick={closediv} /></span>
         <h1>Drop Us a  Message</h1>

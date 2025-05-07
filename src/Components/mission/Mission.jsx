@@ -23,6 +23,9 @@ const Mission = () => {
         </div>
         <div className="mission2">
           <h1 title="">OUR VISION</h1>
+          <span className="io1">
+              <img src={vision} alt="" />
+            </span>
           <div className="mission3">
           <p>
               We envision a future where technology and sustainability go hand
