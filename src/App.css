@@ -1,0 +1,15 @@
+.App{
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+}
+.wats{
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  cursor: pointer;
+  letter-spacing: 20px;
+  width: 65px;
+  height: 65px;
+  z-index: 9999;
+}

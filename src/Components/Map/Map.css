@@ -1,0 +1,10 @@
+.map{
+    width: 100%;
+    height: 40%;
+    display: flex;
+}
+.map iframe{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
