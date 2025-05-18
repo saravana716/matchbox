@@ -4,6 +4,7 @@
     top: 0;
     left: 0;
     z-index: 9999;
+    background-color: var(--primary-color);
 }
 .Navbar{
     width: 100%;
@@ -12,12 +13,13 @@
     align-items: center;
     justify-content: center;
     padding:20px;
-    background-color: var(--third-color);
-    color: var(--secondary-color);
+    background-color: var(--primary-color);
+    color: white;
 
 }
 .slider{
     width: 500px;
+    height: 700px;
     position: absolute;
     top: 54px;
     right: -100%;
@@ -63,8 +65,17 @@
     height: 100%;
 
 }
+.form2 .form1{
+    margin-bottom: 40px;
+}
+.form2 .form1 span p{
+    top: 45px;
+    color: black;
+    font-weight: 600;
+}
 .slider1{
     width: 500px;
+    height: 700px;
     position: absolute;
     top: 54px;
     right: 0;
@@ -130,6 +141,7 @@ position: relative;
     border-radius: 6px;
     transition: 1s;
     background: transparent;
+    color: white;
   
 }
 .Navbar button{
@@ -143,10 +155,13 @@ position: relative;
     font-size: 18px;
     font-family: "Quicksand", sans-serif;
   font-optical-sizing: auto;  
-  background: linear-gradient(45deg, #ff0000, #ff6a00, #ffcc00, #ffff00);
- 
+background-color: var(--third-color);
+color: black; 
+transition: 1s;
 }
-
+.Navbar button:hover{
+    background-color: var(--secondary-color);
+}
 .Navbar .ul li img{
     width: 30px;
     object-fit: contain;
@@ -162,12 +177,8 @@ position: relative;
     color: black;
 }
 .Navbar .ul li:hover {
-    background: linear-gradient(45deg, #ff0000, #ff6a00, #ffcc00, #ffff00);
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
-    -webkit-text-fill-color: transparent; /* Ensures it works on WebKit browsers */
-}
+    color: var(--third-color);
+  }
 .Navbar .ul li:hover img{
     opacity: 1;
 }
@@ -177,7 +188,8 @@ position: relative;
     align-items: center;
     justify-content: space-between;
     padding: 10px 20px;
-    background-color: #313c45;
+    background-color:var(--third-color);
+    color: black;
 }
 .topleft{
     display: flex;
@@ -187,15 +199,11 @@ position: relative;
 }
 .topleft p{
     font-size: 14px;
-    background: linear-gradient(45deg, #ff0000, #ff6a00, #ffcc00, #ffff00);
-    background-clip: text;
-    -webkit-background-clip: text;
+    cursor: pointer;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: transparent;
-    -webkit-text-fill-color: transparent; /* Ensures it works on WebKit browsers */
-
+ color: black;
 }
 a{
     list-style: none;
@@ -205,7 +213,7 @@ a{
 }
 .topleft p .icon{
     font-size: 14px;
-    color: #ff0000;
+    color: var(--primary-color);
 margin-right: 10px;
 }
 .topright{
@@ -220,14 +228,16 @@ margin-right: 10px;
     align-items: center;
     justify-content: center;
     height: 30px;
-    background: linear-gradient(45deg, #ff0000, #ff6a00, #ffcc00, #ffff00);
-    padding: 6px;
+   padding: 6px;
     border-radius: 100%;
     transition: 1s;
     cursor: pointer;
+    background-color: var(--primary-color);
+    color: white;
 }
 .topright span:hover{
-    color: white;
+    color: black;
+    background-color: var(--secondary-color);
 }
 .menu{
     display: none;

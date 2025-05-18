@@ -15,20 +15,14 @@
 .ab h1{
     font-family: "Josefin Sans", sans-serif;
     margin: 10px 0px;
-    background: linear-gradient(45deg, #ff0000, #ff6a00, #ffcc00, #ffff00);
-    background-clip: text;
-    -webkit-background-clip: text;
-    display: flex;
-    align-items: center;
-    color: transparent;
-    -webkit-text-fill-color: transparent; /* Ensures it works on WebKit browsers */
     font-size: 40px;
-}
-.ab p{
     color: var(--secondary-color);
 }
+.ab p{
+    color:white;
+}
 .ab p span{
-    color:#ff0000;
+    color:var(--secondary-color);
 }
 .abbtn{
     width: 100%;
@@ -48,11 +42,11 @@
 .abbtn1 p{
     width: 70px;
     height: 4px;
-    background-color: #ff0000;
+    background-color: var(--primary-color);
     border-radius: 100px;
 }
 .abbtn1 .b2{
-    background-color:var(--secondary-color);
+    background-color:var(--third-color);
     color: black;
     border: none;
     outline: none;
@@ -74,8 +68,7 @@
     border-radius: 8px;
     top: -100%;
     left: -100%;
-    background: linear-gradient(45deg, #ff0000, #ff6a00, #ffcc00, #ffff00);
-    transition: 1s;
+   background-color: var(--primary-color);    transition: 1s;
     z-index: -1;
    }
 .abbtn1 .b2:hover::before{
@@ -90,7 +83,7 @@
     border-radius: 8px;
     bottom: -100%;
     right: -100%;
-    background: linear-gradient(45deg, #ff0000, #ff6a00, #ffcc00, #ffff00);
+      background-color: var(--primary-color);    transition: 1s;
     transition: 1s;
     z-index: -1;
    }
@@ -108,8 +101,8 @@
     padding: 10px 30px;
     font-size: 16px;
     margin-top: 10px;
-    background: linear-gradient(45deg, #ff0000, #ff6a00, #ffcc00, #ffff00);
-    color: black;
+     background-color: var(--primary-color);    transition: 1s;
+    color: white;
     border-radius: 6px;
     cursor: pointer;
     position: relative;
@@ -125,7 +118,7 @@
     border-radius: 8px;
     top: 0%;
     left:0%;
-    background: linear-gradient(45deg, #ff0000, #ff6a00, #ffcc00, #ffff00);
+      background-color: var(--primary-color);    transition: 1s;
     transition: 1s;
     z-index: -1;
    }
@@ -138,9 +131,10 @@
     border-radius: 8px;
     bottom:0%;
     right:0%;
-    background: linear-gradient(45deg, #ff0000, #ff6a00, #ffcc00, #ffff00);
+      background-color: var(--primary-color);    transition: 1s;
     transition: 1s;
     z-index: -1;
+    color: white;
    }
 
 .abbtn1 .b1:hover{
@@ -171,7 +165,7 @@
     justify-content: center;
     border-radius: 10px;
     position: relative;
-    border: 3px solid #ff6a00;
+    border: 3px solid var(--primary-color);
     border-top-right-radius: 150px;
     border-bottom-left-radius: 150px;
 }
@@ -192,14 +186,11 @@
     font-size: 40px;
     font-family: "Josefin Sans", sans-serif;
     margin-bottom: 10px;
+    color: var(--third-color);
 }
 .boardcontent h1 span{
-    background: linear-gradient(45deg, #ff0000, #ff6a00, #ffcc00, #ffff00);
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
-    -webkit-text-fill-color: transparent; /* Ensures it works on WebKit browsers */
-margin-bottom: 10px;
+  color: var(--primary-color);
+    margin-bottom: 10px;
 }
 .boardcontent p{
     color: var(--secondary-color);
@@ -208,7 +199,7 @@ margin-bottom: 10px;
     text-align: justify;
 }
 .boardcontent p span{
-    color: #ff0000;
+    color: var(--primary-color);
     font-weight: bold;
     font-family: "Josefin Sans", sans-serif;
 }
@@ -221,13 +212,11 @@ margin-bottom: 10px;
     font-size: 40px;
     font-family: "Josefin Sans", sans-serif;
     margin-bottom: 10px;
+    color: var(--third-color);
+
 }
 .board2 h1 span{
-    background: linear-gradient(45deg, #ff0000, #ff6a00, #ffcc00, #ffff00);
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
-    -webkit-text-fill-color: transparent; /* Ensures it works on WebKit browsers */
+    color: var(--primary-color);
 margin-bottom: 10px;
 }
 .board2 p{
@@ -267,7 +256,7 @@ margin-bottom: 10px;
     display: flex;
     flex-direction: column;
     padding-left: 30px;
-    border-left: 3px solid red;
+    border-left: 3px solid var(--secondary-color);
 }
 .factory2{
     width: 100%;
@@ -293,9 +282,9 @@ margin-bottom: 10px;
     width: 30px;
     height: 30px;
     border-radius: 100%;
-    color: #ffff00;
+    color:white;
     font-size: 30px;
-    background-color: #ff6a00;
+    background-color:var(--primary-color);
     top: 0;
     left: -46px;
 }
@@ -326,12 +315,8 @@ margin-bottom: 10px;
 }
 .factory1 .video h1{
     font-size: 30px;
-    background: linear-gradient(45deg, #ff0000, #ff6a00, #ffcc00, #ffff00);
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
-    -webkit-text-fill-color: transparent; /* Ensures it works on WebKit browsers */
-margin-bottom: 10px;
+  color: var(--primary-color);
+    margin-bottom: 10px;
 font-family: "Josefin Sans", sans-serif;
 
 }
@@ -342,14 +327,10 @@ font-family: "Josefin Sans", sans-serif;
     text-align: justify;
 }
 .factory2 .video h1{
-    font-size: 30px;
-    background: linear-gradient(45deg, #ff0000, #ff6a00, #ffcc00, #ffff00);
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
-    -webkit-text-fill-color: transparent; /* Ensures it works on WebKit browsers */
 margin-bottom: 10px;
 font-family: "Josefin Sans", sans-serif;
+  color: var(--primary-color);
+
 
 }
 .factory2 .video p{
@@ -419,7 +400,7 @@ font-family: "Josefin Sans", sans-serif;
     display: flex;
     align-items: center;
     justify-content: center;
-    border:  3px dotted #ff6a00;
+    border:  3px dotted var(--primary-color);
     border-radius: 100%;
     transition: 1s;
 }
@@ -429,7 +410,7 @@ flex-direction: column;
 }
 .less h3{
     font-size: 20px;
-    color: #ff0000;
+    color: var(--primary-color);
     margin-bottom: 10px;
 }
 .less h5{
@@ -441,12 +422,12 @@ flex-direction: column;
     transition: 1s;
 }
 .contactbox:hover{
-    background-color: #ffcc00;
+    background-color:var(--third-color);
 }
 .contactbox:hover span{
     background-color: black;
-    color: #ff6a00;
-    border: 1px solid #ff6a00;
+    color:white;
+    border: 1px solid var(--secondary-color);
 }
 .contactbox:hover span .ph{
     transform: rotateY(360deg);
@@ -467,13 +448,7 @@ flex-direction: column;
 .contactpageinner h1{
     font-family: "Josefin Sans", sans-serif;
     margin: 10px 0px;
-    background: linear-gradient(45deg, #ff0000, #ff6a00, #ffcc00, #ffff00);
-    background-clip: text;
-    -webkit-background-clip: text;
-    display: flex;
-    align-items: center;
-    color: transparent;
-    -webkit-text-fill-color: transparent; /* Ensures it works on WebKit browsers */
+ color: var(--primary-color);
     font-size: 40px;   
 }
 .form{
@@ -493,6 +468,10 @@ flex-direction: column;
     gap: 30px;
     margin: 20px 0px;
 }
+.form1 span{
+    width: 100%;
+    position: relative;
+}
 .form1 input{
     width: 100%;
     padding: 13px;
@@ -500,6 +479,14 @@ flex-direction: column;
     border-radius: 8px;
     outline: none;
     transition: 1s;
+}
+.form1 span p{
+    position: absolute;
+    top: 45px;
+    left: 0;
+    margin-top: 5px;
+    font-weight: 600;
+
 }
 .form1 input:hover{
     border: 2px solid #ff6a00;
@@ -515,6 +502,17 @@ textarea{
     border-radius: 8px;
     outline: none;
     transition: 1s;
+    position: relative;
+}
+.form1 .ti{
+    position:relative;
+}
+.form1 .ti .pi{
+    position: absolute;
+    left: 0;
+    top:100px;
+    font-weight: 600;
+    
 }
 .form button{
     width: 50%;
@@ -531,7 +529,7 @@ textarea{
     transition: 1s;
 }
 .form button:hover{
-    background-color: #ff0000;
+    background-color: var(--primary-color);
     color: white;
 }
 

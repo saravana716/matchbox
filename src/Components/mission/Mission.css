@@ -20,13 +20,7 @@
 .mission2 h1{
     font-family: "Josefin Sans", sans-serif;
     margin: 10px 0px;
-    background: linear-gradient(45deg, #ff0000, #ff6a00, #ffcc00, #ffff00);
-    background-clip: text;
-    -webkit-background-clip: text;
-    display: flex;
-    align-items: center;
-    color: transparent;
-    -webkit-text-fill-color: transparent; /* Ensures it works on WebKit browsers */
+   color: var(--primary-color);
     font-size: 40px;    
 }
 .mission3{
@@ -41,14 +35,7 @@
     justify-content: flex-end;
     font-family: "Josefin Sans", sans-serif;
     margin: 10px 0px;
-    background: linear-gradient(45deg, #ff0000, #ff6a00, #ffcc00, #ffff00);
-    background-clip: text;
-    -webkit-background-clip: text;
-    display: flex;
-    align-items: center;
-    color: transparent;
-    -webkit-text-fill-color: transparent; /* Ensures it works on WebKit browsers */
-    font-size: 40px;    
+   color: var(--primary-color);    font-size: 40px;    
 }
 .mission3 span{
     width: 450px;
@@ -58,8 +45,7 @@
     justify-content: center;
     margin-right: 50px;
     border-radius: 100%;
-    background: linear-gradient(45deg, #ff0000, #ff6a00, #ffcc00, #ffff00);
-    background-color: #ffcc00;
+  background-color: var(--primary-color);
 }
 .mission3 span img{
     width: 70%;
@@ -75,7 +61,8 @@
     margin-left: 50px;
     margin-right: 0px;
     border-radius: 100%;
-    background-color: #ffcc00;
+  background-color: var(--primary-color);
+
 }
 .mission3 span img{
     width: 70%;

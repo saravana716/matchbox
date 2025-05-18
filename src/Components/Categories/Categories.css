@@ -20,15 +20,11 @@
     flex-direction: column;
 }
 .categoriestop h3{
-    background: linear-gradient(45deg, #ff0000, #ff6a00, #ffcc00, #ffff00);
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
-    -webkit-text-fill-color: transparent; /* Ensures it works on WebKit browsers */
-margin-bottom: 10px;
+  color: var(--secondary-color);  
+  margin-bottom: 10px;
 }
 .categoriestop h1{
-    color:var(--third-color);
+    color:var(--primary-color);
     font-family: "Josefin Sans", sans-serif;
     font-size: 40px;
     margin: 20px 0px;
@@ -42,7 +38,7 @@ margin-bottom: 10px;
     width: 50%;
     height: 2px;
     bottom: 0;
-    background: linear-gradient(45deg, #ff0000, #ff6a00, #ffcc00, #ffff00);
+   background-color: var(--third-color);
     border-radius: 10px;
 }
 
@@ -52,7 +48,7 @@ margin-bottom: 10px;
     display: block;
     width: 45%;
     height: 2px;
-    background: linear-gradient(45deg, #ff0000, #ff6a00, #ffcc00, #ffff00);
+      background-color: var(--third-color);
     border-radius: 10px;
     right: 0;
     top: -12px;

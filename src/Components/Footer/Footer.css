@@ -32,11 +32,7 @@
     margin-bottom: 10px;
 }
 .footer2 h3{
-    background: linear-gradient(45deg, #ff0000, #ff6a00, #ffcc00, #ffff00);
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
-    -webkit-text-fill-color: transparent; /* Ensures it works on WebKit browsers */
+    color: var(--primary-color);
     font-family: "Josefin Sans", sans-serif;
 
 }
@@ -44,24 +40,16 @@
     line-height: 25px;
     text-align: justify;
     font-size: 16px;
-    color: var(--secondary-color);
+    color: white    ;
     margin-top: 10px;
 }
 .footer2 h3{
     margin: 10px 0px;
-    background: linear-gradient(45deg, #ff0000, #ff6a00, #ffcc00, #ffff00);
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
-    -webkit-text-fill-color: transparent; /* Ensures it works on WebKit browsers */
+    color: var(--third-color);
 }
 .footer2 h3[title]{
     margin: 10px 0px;
-    background: linear-gradient(45deg, #ff0000, #ff6a00, #ffcc00, #ffff00);
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
-    -webkit-text-fill-color: transparent; /* Ensures it works on WebKit browsers */
+   color: var(--third-color);
     margin-top: 20px;
 }
 .footer2 h4{
@@ -88,11 +76,11 @@
 .links1 p .icon{
 margin-right: 8px;
 font-size: 18px;
-color: #ff0000;
+color: var(--third-color);
 }
 .links h2{
     width: 100%;
-    color: var(--secondary-color);
+    color: white;
     font-size: 18px;
     display: flex;
     align-items: center;
@@ -101,10 +89,10 @@ color: #ff0000;
     transition: 1s;
 }
 .links h2:hover{
-    color: #ff0000;
+    color: var(--secondary-color);
 }
 .links h2 span{
-    color: #ff0000;
+    color: white;
     font-size: 18px;
     margin-right: 5px;
 
@@ -123,13 +111,13 @@ color: #ff0000;
     align-items: center;
     justify-content: center;
     height: 30px;
-    background: linear-gradient(45deg, #ff0000, #ff6a00, #ffcc00, #ffff00);
-    padding: 6px;
+    background-color: var(--third-color);    padding: 6px;
     border-radius: 100%;
     transition: 1s;
 }
 .links2 span:hover{
     color: white;
+    background-color: var(--primary-color);
 }
 .footerbot{
     width: 100%;

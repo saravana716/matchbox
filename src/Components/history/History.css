@@ -30,15 +30,11 @@
     object-fit: contain;
 }
 .historyleft h3{
-    background: linear-gradient(45deg, #ff0000, #ff6a00, #ffcc00, #ffff00);
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
-    -webkit-text-fill-color: transparent; /* Ensures it works on WebKit browsers */
-margin-bottom: 10px;
+  margin-bottom: 10px;
+  color: var(--secondary-color);
 }
 .historyleft h1{
-    color:var(--third-color);
+    color:var(--primary-color);
     font-family: "Josefin Sans", sans-serif;
     font-size: 40px;
     margin: 20px 0px;
@@ -52,7 +48,7 @@ margin-bottom: 10px;
     width: 50%;
     height: 2px;
     bottom: 0;
-    background: linear-gradient(45deg, #ff0000, #ff6a00, #ffcc00, #ffff00);
+background-color: var(--third-color);
     border-radius: 10px;
 }
 
@@ -62,8 +58,8 @@ margin-bottom: 10px;
     display: block;
     width: 45%;
     height: 2px;
-    background: linear-gradient(45deg, #ff0000, #ff6a00, #ffcc00, #ffff00);
-    border-radius: 10px;
+      border-radius: 10px;
+      background-color: var(--third-color);
     right: 0;
     top: -12px;
 }
@@ -74,7 +70,7 @@ margin-bottom: 10px;
     margin-bottom: 20px;
 }
 .historyleft p span{
-    color: #ff6a00;
+    color:var(--primary-color);
     font-weight: bold;
     margin-right: 10px;
 }
@@ -86,7 +82,7 @@ margin-bottom: 10px;
     border-top-left-radius: 40px;
     border-bottom-right-radius: 40px;
     color: white;
-    background: linear-gradient(45deg, #ff0000, #ff6a00, #ffcc00, #ffff00);
+   background-color: var(--primary-color);
     font-weight: bold;
     font-size: 18px;
     font-family: "Josefin Sans", sans-serif;

@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from '../Components/Navbar/Navbar'
 import Footer from '../Components/Footer/Footer'
-import logo from "../Assets/matchbox.jpg"
+import logo from "../Assets/b1.jpg"
 const Gallery = () => {
   return (
     <>

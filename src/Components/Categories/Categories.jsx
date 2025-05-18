@@ -1,7 +1,7 @@
 import React from "react";
 import "./Categories.css";
 import { Swiper, SwiperSlide } from "swiper/react";
-import logo from "../../Assets/fire.jpg"
+import logo from "../../Assets/b2.jpg"
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";

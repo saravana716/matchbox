@@ -30,12 +30,8 @@
 }
 .clientbox h1{
     font-size: 50px;
-    background: linear-gradient(45deg, #ff0000, #ff6a00, #ffcc00, #ffff00);
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
-    -webkit-text-fill-color: transparent; /* Ensures it works on WebKit browsers */
-margin-bottom: 10px;
+    color: var(--secondary-color);
+    margin-bottom: 10px;
 font-family: "Josefin Sans", sans-serif;
 
 }
