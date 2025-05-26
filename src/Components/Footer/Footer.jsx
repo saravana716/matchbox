@@ -82,7 +82,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="footerbot">
-        <p>Copyright  2025 Dhanalakshmi Matches | Designed & Developed by onedot-final_white
+        <p>Copyright 2025 THANGARAJ MATCH FACTORY | DESIGNED & DEVELOPED BY KAIRA - NEXSUN TECHNOLOGIES
 
 </p>
       </div>

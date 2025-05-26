@@ -13,6 +13,7 @@ const About = () => {
     <Navbar/>
     <Abbanner/>
     <History/>
+    <Info/>
     <Clients/>
     <Mission/>
 
